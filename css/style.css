@@ -1,0 +1,410 @@
+@charset "UTF-8";
+body {
+  background-color: #352E2E;
+  padding-top: 90px; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+.orange-hover:hover {
+  color: #F36E21;
+  transition: all ease-in-out 400ms; }
+
+#pageStart .linkStart {
+  color: white; }
+
+#pageMeny .linkMeny {
+  color: white; }
+
+#nav .nav-link {
+  color: #F36E21; }
+
+#nav .nav-link:hover {
+  color: #fff;
+  transition: all ease-in-out 400ms; }
+
+#nav .dropdown-menu {
+  background-color: #352E2E; }
+
+#nav .dropdown-item {
+  color: #F36E21; }
+
+#nav .dropdown-item:hover {
+  background-color: initial;
+  color: #fff;
+  transition: all ease-in-out 400ms; }
+
+.transition-fix {
+  position: relative;
+  top: -13px; }
+
+.active-link {
+  color: #fff; }
+
+.myNavbar {
+  background-color: #352E2E;
+  border-bottom: 2px #F36E21 solid; }
+  .myNavbar .nav-item {
+    font-size: 1.1rem;
+    padding-left: 0.3em; }
+
+#legend-section {
+  background: url("../img/coffee-beans-small-device-reduced.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 383px;
+  /*
+  .btn-lg {
+    padding: 9px 18px;
+    border: 2px $tintin-orange solid;
+    border-radius: 7px;
+    font-size: 1.5rem;
+  }
+  */ }
+  #legend-section .btn-lg {
+    padding: 14px 26px;
+    border: 2px #F36E21 solid;
+    border-radius: 7px;
+    font-size: 1.6rem; }
+  #legend-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.67);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 590px; }
+  #legend-section .col {
+    position: relative;
+    top: -12px; }
+  #legend-section h1 {
+    font-size: 2.5rem; }
+
+#home-dishes-section {
+  overflow-x: hidden; }
+  #home-dishes-section .thumbnail {
+    position: relative; }
+  #home-dishes-section .caption {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.67);
+    bottom: 1.4em;
+    left: 50%;
+    transform: translate(-50%, 0); }
+
+#home-about-section {
+  background-color: #232323; }
+  #home-about-section .fa {
+    background: #F36E21;
+    border-radius: 6px; }
+  #home-about-section #about-header {
+    text-align: center; }
+
+.info-header {
+  width: 50%;
+  min-width: 230px;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+  .info-header p {
+    font-weight: 200; }
+
+.img-section {
+  border-bottom: 2px #F36E21 solid; }
+  .img-section img {
+    max-width: 100%; }
+
+.footer-section {
+  border-top: 2px #F36E21 solid;
+  width: 100%; }
+  .footer-section img {
+    width: 100px;
+    height: 100px; }
+  .footer-section p {
+    font-size: 0.76rem; }
+
+#food-nav-section {
+  border-bottom: 2px #F36E21 solid; }
+  #food-nav-section .nav-item {
+    font-size: 1.1rem;
+    padding-left: 0.3em; }
+  #food-nav-section .nav-link {
+    color: #fff; }
+  #food-nav-section .nav-item:hover .nav-link {
+    color: #F36E21;
+    transition: all ease-in-out 400ms; }
+  #food-nav-section .dropdown-menu {
+    background-color: #352E2E; }
+  #food-nav-section .dropdown-item {
+    color: white; }
+  #food-nav-section .dropdown-item:hover {
+    background-color: initial;
+    color: #F36E21;
+    transition: all ease-in-out 400ms; }
+
+#meny-section {
+  background-color: #232323;
+  overflow-x: hidden; }
+  #meny-section .main-row-container {
+    border: 2px #F36E21 solid;
+    border-radius: 10px;
+    max-width: 95%;
+    margin: 0 auto; }
+  #meny-section .main-row {
+    border: 2px #F36E21 solid;
+    border-radius: 10px;
+    max-width: 95%;
+    margin: 0 auto; }
+  #meny-section i {
+    position: relative;
+    top: -6px; }
+  #meny-section img {
+    border-bottom-right-radius: 8px; }
+  #meny-section h3 {
+    font-size: 1.6rem; }
+  #meny-section .card {
+    border: 2px #F36E21 solid;
+    border-radius: 8px;
+    /*max-width: 70%;*/
+    max-width: 260px;
+    margin: 0 auto; }
+  #meny-section .card-text {
+    color: black;
+    font-weight: 500;
+    font-size: 0.9rem; }
+  #meny-section .info-part {
+    background-clip: content-box; }
+  #meny-section #husmanskost h2 {
+    font-size: 2.7rem; }
+
+.totop {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  display: none;
+  background: #a05b7e;
+  color: #fff;
+  border-radius: 25px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 30px;
+  font-size: 18px; }
+
+#map {
+  width: 100%;
+  height: 420px; }
+
+.text-section {
+  background-color: #232323; }
+  .text-section article {
+    border: 3px #F36E21 solid;
+    max-width: 800px;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    margin: 0 auto; }
+  .text-section p {
+    margin: 1.5em 1.2em 1.8em 1.2em; }
+  .text-section h2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -34px;
+    /*34*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #232323;
+    display: inline-block;
+    padding: 0 0.5em; }
+  .text-section a:hover {
+    color: #4285F4;
+    transition: all ease-in-out 400ms; }
+
+#text-article-kontakt {
+  max-width: 600px; }
+
+#text-article-personal {
+  max-width: 600px; }
+
+#text-kontakt-section .row {
+  padding-top: 4em;
+  padding-bottom: 3em; }
+
+#text-kontakt-section #first-col {
+  margin-bottom: 4.2em; }
+
+#om-oss-article {
+  max-width: 600px; }
+
+/* All headers on text sections */
+#contact-header {
+  width: 235px;
+  text-align: center;
+  font-size: 31px;
+  top: -22px; }
+
+#personal-header {
+  font-size: 31px;
+  text-align: center;
+  width: 240px;
+  /*200*/
+  top: -22px; }
+
+#om-oss-header {
+  font-size: 35px;
+  width: 185px;
+  top: -25px;
+  text-align: center; }
+
+#jobba-header {
+  font-size: 27px;
+  text-align: center;
+  width: 230px;
+  top: -19px; }
+
+#news-section {
+  background-color: #2d2c2c; }
+  #news-section .container {
+    max-width: 900px; }
+  #news-section .card {
+    border: 2px #F36E21 solid;
+    border-radius: 8px;
+    max-width: 350px;
+    /* Use this width for image to minimize size */
+    margin: 0 auto; }
+    #news-section .card .card-title {
+      background-color: #F36E21; }
+    #news-section .card .card-text {
+      font-size: 0.95rem;
+      font-weight: 580; }
+    #news-section .card .card-footer {
+      font-size: 1rem; }
+
+#jobba-section ul {
+  position: relative;
+  margin-top: -25px;
+  margin-bottom: -35px;
+  left: 30px; }
+
+#jobba-section #text-article-jobba {
+  max-width: 600px; }
+
+#slider-section {
+  background-color: #232323; }
+  #slider-section .slider-container {
+    margin: 0 auto;
+    max-width: 992px; }
+
+@media (min-width: 370px) {
+  #legend-section h1 {
+    font-size: 3rem; } }
+
+/**** Media Query Section ****/
+@media (min-width: 576px) {
+  /* Image optimaztion section */
+  #legend-section {
+    background: url("../img/coffee-beans-768.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 500px;
+    /*
+    .btn-lg {
+      padding: 14px 26px;
+      border: 2px $tintin-orange solid;
+      border-radius: 7px;
+      font-size: 1.6rem;
+    } */ }
+    #legend-section h1 {
+      font-size: 3.5rem; }
+  #meny-main-img {
+    content: url("../img/coffebeans.jpg"); }
+  #om-main-img {
+    content: url("../img/latte.jpg");
+    width: 100%; }
+  #jobba-main-img {
+    content: url("../img/jobba.jpg");
+    width: 100%; }
+  #contact-main-img {
+    content: url("../img/contact.jpg");
+    width: 100%; }
+  /* END image optimazation section */
+  .footer-section {
+    border-top: 2px #F36E21 solid; }
+    .footer-section p {
+      font-size: 0.95rem; }
+    .footer-section img {
+      width: 130px;
+      height: 130px; }
+    .footer-section #home-about-section h2 {
+      text-align: left; }
+  #legend-section .col {
+    position: relative;
+    /*top: 120px;*/
+    top: 10px; }
+  .text-section p {
+    margin: 2.1em 1.8em 1.8em 1.8em; }
+  /* All headers on text sections */
+  #contact-header {
+    width: 345px;
+    font-size: 43px;
+    top: -30px; }
+  #personal-header {
+    width: 350px;
+    /*280*/
+    font-size: 43px;
+    top: -30px; }
+  #om-oss-header {
+    font-size: 46px;
+    width: 250px;
+    top: -33px; }
+  #jobba-header {
+    font-size: 40px;
+    width: 340px;
+    /*295*/
+    top: -27px; } }
+
+@media (min-width: 768px) {
+  #legend-section {
+    background: url("../img/coffee-beans-992.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; }
+  #meny-section .card {
+    max-width: initial; }
+  #meny-section .main-row-container {
+    max-width: 656px; }
+  #home-about-section #about-header {
+    text-align: left; } }
+
+@media (min-width: 992px) {
+  #legend-section {
+    background: url("../img/coffee-beans-1200.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; }
+  #meny-section .card-title {
+    margin-bottom: 0px; } }
+
+@media (min-width: 1200px) {
+  #burger-img-index {
+    content: url("../img/burger.jpg"); }
+  #arrabiata-img-index {
+    content: url("../img/arrabiata.jpg"); }
+  #husman-img-index {
+    content: url("../img/husman.jpg"); }
+  #risgryn-img-index {
+    content: url("../img/frukostrisgryn.jpg"); }
+  #sallad-img-index {
+    content: url("../img/kycklingsallad.jpg"); }
+  #toast-img-index {
+    content: url("../img/eggbacon.jpg"); }
+  #kaffe-img-index {
+    content: url("../img/pic12.jpg"); }
+  #sötsaker-img-index {
+    content: url("../img/rocky.jpg"); }
+  #toastar-img-index {
+    content: url("../img/toast.jpg"); } }

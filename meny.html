@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106855092-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-106855092-1');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="description" content="Här finns allt från sallader till american pancakes! Många av våra maträtter är baserade på egentillverkade blandningar och man blir mätt på våra portioner!">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Café Tintin | Meny</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body id="pageMeny">
+
+  <!-- NAVBAR SECTION -->
+  <nav id="nav" class="myNavbar navbar navbar-dark navbar-expand-lg fixed-top py-3">
+    <div class="container">
+      <a href="index.html#home" class="navbar-brand">
+        <img src="img/tivtiv-reduced.png" alt="TINTIN Logo" height="50">
+      </a>
+      <button class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto align-items-center">
+          <li class="nav-item dropdown">
+              <a href="index.html" class="nav-link dropdown-toggle" data-toggle=dropdown>Start</a>
+              <div class="dropdown-menu">
+                <a href="index.html#legend-section" class="dropdown-item">Startskärm</a>
+                <a href="index.html#home-dishes-section" class="dropdown-item">Mat &amp; Dryck</a>
+                <a href="index.html#home-about-section" class="dropdown-item">Kuriosa</a>
+                <a href="index.html#news-section" class="dropdown-item">Nyheter</a>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a href="meny.html" class="nav-link linkMeny">Meny</a>
+          </li>
+          <li class="nav-item">
+            <a href="oss.html" class="nav-link">Om Oss</a>
+          </li>
+          <li class="nav-item">
+            <a href="jobba.html" class="nav-link">Jobba Hos Oss</a>
+          </li>
+          <li class="nav-item">
+            <a href="galleri.html" class="nav-link">Galleri</a>
+          </li>
+          <li class="nav-item">
+            <a href="hitta.html" class="nav-link">Hitta Hit</a>
+          </li>
+          <li class="nav-item">
+            <a href="kontakt.html" class="nav-link">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="transition-fix">
+
+  <!-- IMAGE SECTION -->
+  <section class="img-section">
+    <img id="meny-main-img" src="img/coffebeans-small-device.jpg" alt="Café latte art">
+  </section>
+
+  <!-- FOOD NAVBAR SECTION -->
+  <nav id="food-nav-section" class="navbar navbar-expand-md navbar-dark py-3">
+    <div class="container">
+      <ul class="navbar-nav mx-auto text-align-center">
+        <li class="nav-item text-center">
+          <a href="#pasta" class="nav-link">Pasta</a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#husmanskost" class="nav-link">Husmanskost</a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#sallad" class="nav-link">Sallad</a>
+        </li>
+        <li class="nav-item dropdown text-center">
+            <a href="#varma-mackor" class="nav-link dropdown-toggle" data-toggle=dropdown>Varma Mackor</a>
+            <div class="dropdown-menu">
+              <a href="#baguetter" class="dropdown-item">Baguetter</a>
+              <a href="#mackor" class="dropdown-item">Stekta Mackor</a>
+              <a href="#toast" class="dropdown-item">Toastar</a>
+            </div>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#frukost" class="nav-link">Frukost</a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#hamburgare" class="nav-link">Hamburgare</a>
+        </li>
+        <li class="nav-item text-center">
+          <a href="#sötsaker" class="nav-link">Sötsaker</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- MENY SECTION -->
+  <section class="py-4" id="meny-section">
+    <div class="container">
+      <div class="info-box">
+        <div class="main-row-container text-white mb-5 mt-2">
+          <div class="info-box-container mx-3 my-3">
+            <div class="info-box-section d-flex flex-row mt-3">
+              <i class="fa fa-calendar mr-3 fa-2x align-self-center"></i>
+              <p class="info-box-text">ALLT på menyn förutom frukost serveras på alla dygnets vakna timmar - 365 dagar om året!</p>
+            </div>
+            <div class="info-box-section d-flex flex-row mt-3">
+              <i class="fa fa-coffee mr-3 fa-2x align-self-center"></i>
+              <p class="info-box-text">Frukost serveras 06:30 till 10:30 på vardagar.
+              På helger serveras den från 07:00 till 11:30.</p>
+            </div>
+            <div class="info-box-section d-flex flex-row mt-3">
+              <i class="fa fa-cutlery mr-3 fa-2x align-self-center"></i>
+              <p class="info-box-text">Luncherbjudande gäller från 11:00 till 15:00 på vardagar.
+              I erbjudandet ingår kaffe eller te och en läskande dryck till rabatterat pris.</p>
+            </div>
+            <div class="info-box-section d-flex flex-row mt-3">
+              <i class="fa fa-moon-o mr-3 fa-2x align-self-center"></i>
+              <p class="info-box-text">På nattkvisten mellan 22:00 och 07:00 gäller nattpriser under alla veckans dagar.</p>
+            </div>
+            <div class="info-box-section d-flex flex-row mt-3">
+              <a href="meny.pdf" class="text-white"><i class="fa fa-file-pdf-o mr-3 fa-2x align-self-center"></i></a>
+              <p class="info-box-text"><a href="meny.pdf" class="text-white"><em>Menyn i pdf.</em></a> Reservation för felskrivningar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pastarätter -->
+      <div id="pasta" class="row main-row mb-5">
+        <h2 class="col-md-12 text-white display-4 text-center mt-3 mb-2">Pastarätter</h2>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Curry Pasta</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img id="currypasta-img" class="w-100 img-fluid" src="img/currypasta-small-device.jpg" alt="Pasta med currysås som serveras med kyckling och jordnötter.">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Vi har mycket med curry, självklart även en pastarätt! Balanserad med söt ananas och salta jordnötter, lök och kryddor. Kyckling som protein!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Pasta Pesto</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/pesto-small-device.jpg" alt="">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Traditionell pastarätt med noga utvald pesto. Kyckling och parmesanost, mums!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Pasta Arrabiata</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/arrabiata-small-device-meny.jpg" alt="Pasta Arrabiata med kyckling eller handskalade räkor.">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Tomatbaserad pastarätt med hetta! Inget för barn. Doftar verkligen Italien! Balanserad med kryddor och lök. Kyckling och gott om svalkande parmesanost.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Gr&auml;ddig Pasta</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/creamy-small-device.jpg" alt="Krämig gräddig pasta som serveras med kyckling.">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Vår populäraste pastarätt, krämig, smakrik och mycket mättsam. Protein i form av kyckling och bacon med kryddor och lök i receptet.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Pasta Bolognese</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Senaste tillskottet i familjen. Rikligt med kryddig köttfärssås och parmesanost.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Husmanskost -->
+      <div id="husmanskost" class="row main-row mb-5">
+        <h2 class="col-md-12 text-white display-4 text-center mt-3 mb-2">Husmanskost</h2>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Kyckling &amp; Potatis</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Storsäljaren! Frasig klyftpotatis och vår berömda currydressing! Lite sallad som lättar upp, en smak man aldrig glömmer eller tröttnar på!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Bacon, Ägg &amp; Potatis</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Ägg &amp; bacon slår aldrig fel, ännu godare blir det med vår fantastiska klyftpotatis! Rinnande äggula, eller vändstekt om du vill!!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Raggmung &amp; Bacon</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    En doldis! Mycket god rätt som många yngre missat. Frasiga potatispannkakor med bacon och sylt, prova!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Pannbiff Ägg &amp; Potatis</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Gjord på nötkött. Samma underbara klyftpotatis. Nästan som hos mormor när man var liten. Traditionsenligt som Tintin i övrigt.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Falukorv, Ägg &amp; Potatis</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Gillar du korv mer än bacon? Då finns detta alternativ för dig. Eller har du med dig gäst från främmande land och vill visa något svenskt?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Schweizerschnitzel &amp; Potatis</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Schnitzel med inte bara kött utan även ost! Frasig, med den klassiska citronen till, samt så klart vår berömda klyftpotatis!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Pytt I Panna</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Med endast nötkött. Frasigt stekt med klassiska tillbehör som rödbetor och stekt ägg
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sallader -->
+      <div id="sallad" class="row main-row mb-5">
+        <h2 class="col-md-12 text-white display-4 text-center mt-3 mb-2">Sallader</h2>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Kycklingsallad</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/kycklingsallad-small-device.jpg" alt="Kycklingsallad med currydressing.">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">Fräscha grönsaker, nygräddat bröd och vår berömda currydressing. Stekt varm kyckling av möra innerfilébitar. Fräscht, gott och mättande.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">R&auml;ksallad</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/räksallad-small-device.jpg" alt="Räksallad">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Räkor så gott! En fräsch sallad som görs på beställning. Salladen innehåller förutom räkor ägg, majonnäs, citron, dill och annat smått och gott. <br>Räkorna är handskalade.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Ceasarsallad</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/ceasar-small-device.jpg" alt="Pasta Arrabiata med kyckling eller handskalade räkor.">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-1 pl-2">
+                    Den godaste dressingen i stan, kanske i världen, som får ta fokus. Enkel sallad i övrigt, med parmesanost och krutonger. Serveras med kyckling eller räkor!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Tonfisksallad</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/tonfisksallad-small-device.jpg" alt="Tonfisksallad">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Samma röra som i vår berömda tonfiskbaguette. Med fräscha grönsaker, ägg, dressing och nygräddat bröd.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hamburgare -->
+      <div id="hamburgare" class="row main-row mb-5">
+        <h2 class="col-md-12 text-white display-4 text-center mt-3 mb-2">Burgers</h2>
+        <div class="col-md-6 py-3 mx-auto">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Regular Burger</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/burger-small-device-meny.jpg" alt="Hamburgare">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text text-muted pb-3 pl-2">
+                    <h5 class="my-2">ÅTERKOMMER SNART TILL MENYN! Håll ut!</h5>
+                    200 gr, 100 % nötkött, den serveras med en fantastiskt god hemmagjord dressing, sallad, tomat &amp;lök med frasigt stekt cafékaka som topp och botten.
+							    	Finns även med mozzarella och pesto istället för hamburgerdressing, eller helt regular.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Toastar -->
+      <div id="toast" class="row main-row mb-5">
+        <h2 class="col-md-12 text-white display-4 text-center mt-3 mb-2">Toastar</h2>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Pesto &amp; Mozzarella</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/toast-small-device-menu.jpg" alt="Toast">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Vegetariskt alternativ. Frasig på utsidan och mjuk inuti, precis som det ska vara.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Skinka &amp; Mozzarella</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/toast-small-device-menu.jpg" alt="Toast">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Pizzakänsla!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Kyckling &amp; Taco</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/toast-small-device-menu.jpg" alt="Toast">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Matig med kryddig tacosmak!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Baguetter -->
+      <div id="baguetter" class="row main-row mb-5">
+        <h2 class="col-md-12 text-white display-4 text-center mt-3 mb-2">Baguetter</h2>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Kycklingbaguette</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Storsäljaren! Vår berömda currydressing, stekt kyckling, nygräddat bröd!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Tonfiskbaguette</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Beroendeframkallande! Fräsch hemmagjord tonfiskröra i nygräddat smörat bröd, lätt och mättande på samma gång, och ruskigt gott.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nystekta Mackor -->
+      <div id="mackor" class="row main-row mb-5">
+        <h2 class="col-md-12 text-white display-4 text-center mt-3 mb-2">Nystekta Mackor</h2>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Kycklingmacka</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Frasigt stekt bröd och vår berömda currydressing, stekt kyckling och lite grönsaker, mycket populär!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Baconmacka</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Ägg &amp; bacon på frasigt stekt bröd, passar både till frukost, lunch och kvällsmål
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Falukorvmacka</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Krispigt bröd med mjuka pålägg, underbar kombination.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Pannbiffmacka</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Mäktiga smaker i enkelhetens namn.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frukost -->
+      <div id="frukost" class="row main-row mb-5">
+        <h2 class="col-md-12 text-white display-4 text-center mt-3 mb-2">Frukostar</h2>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Risgrynsgröt</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/frukostrisgryn-small-device-meny.jpg" alt="Risgrynsgröt med tillbehör">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Vår populäraste frukostmeny! Risgrynsgröt med Önos jordgubbssylt, smörgås med smör, ost och gurka, hårdkokt ägg, kaffe eller te + juice, mjölk eller iste.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">American Pancakes</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/frukostamerican-small-device.jpg" alt="American Pancakes">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Underbart goda amerikanska pannkakor, serveras med sirap. 3 till antalet är pannkakorna och de steks på beställning, så de kommer till dig alldeles purfärska!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Scrambled Eggs</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/frukostscrambled-small-device.jpg" alt="Scrambled Eggs med frasigt stekta ägg och en cafékaka">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-1 pl-2">
+                    Eller äggröra som man kan säga på svenska! Med bacon, på stekt bröd, supergott! Var och kall dryck ingår: kaffe eller te + juice, mjölk eller iste.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Toastfrukost</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/frukosttoast-small-device.jpg" alt="Toastfrukost med tillbehör">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    En trevlig blandtallrik så att du kan kombinera ihop din egen toast. Rostat bröd, marmelad och sylt, smör, ost, gurka, hårdkokt ägg, varm och kall dryck.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Havregrynsgröt</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/frukosthavre-small-device.jpg" alt="Havregrynsgröt med tillbehör">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Ett hälsosamt alternativ! Havregrynsgröt med Önos jordgubbssylt, smörgås med smör, ost och gurka, hårdkokt ägg, kaffe eller te + juice, mjölk eller iste.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Baguettefrukost</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/frukostbag-small-device.jpg" alt="Ugnsbakad baguette med ost och sallad, serveras med ägg">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Baguettefrukost med nygräddad baguette med smält ost och gottigheter. Kommer även med ett ägg.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- sötsaker -->
+      <div id="sötsaker" class="row main-row mb-5">
+        <h2 class="col-md-12 text-white display-4 text-center mt-3 mb-2">Sötsaker</h2>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Kladdkaka</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/kladdkaka-small-device.jpg" alt="Hembakad kladdkaka">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Kladdig och god som den ska vara. Receptet tar fram en lite kolaaktig smak som gör den till den godaste av alla.<br>
+                    Serveras varm eller kall med grädde bredvid.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Vit Kladdkaka</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/vit-kladdkaka-small-device.jpg" alt="Hembakad vit kladdkaka">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Riktigt söt sak med mycket vit choklad, perfekt med grädde till.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Morotskaka</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/kärleksmums-small-device.jpg" alt="Hembakad morotskaka">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Bakad med massor med morötter och kärlek och toppad med den traditionella cheesecakeglasyr vi alla älskar. En klassiker på Tintin!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Hallonpaj</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/hallonpaj-small-device.jpg" alt="Hembakad hallonpaj">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-1 pl-2">
+                    Hembakad varm paj på hallon, inte sylt, beroendeframkallande överdrag och underbart god vaniljvisp. Underbara kontraster mellan syrligt &amp; sött, varmt &amp; kallt
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Äppelpaj</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/äppelpaj-small-device.jpg" alt="Hembakad äppelpaj">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-1 pl-2">
+                    Hembakad varm paj med äpplen och kanel, beroendeframkallande överdrag och underbart god vaniljvisp. Smakar som i sommarstugan.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Kärleksmums</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/kärleksmums-small-device.jpg" alt="Hembakad kärleksmums">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    En av våra absolut populärste bakverk!
+                    Den gör sig utomordentligt något värmd och tillsammans med grädde. Vaniljvisp är också mycket gott till.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Cocosboll</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/cocosboll-small-device.jpg" alt="Hembakad Cocosboll">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Bästa i stan! Kanske i världen. Handrullade på hemmagjord smet med mycket kärlek.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Hasselnötsboll</h3>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="card-text pb-3 mb-2 pl-2 pt-1">
+                    Samma fantastiska smet som den klassiska med krossade hasselnötter på.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Chokladpudding</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/chokladpudding-small-device.jpg" alt="Chokladpudding med grädde">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Barndomsminnen? Jajamensan, gammal institution som Tintin är så håller vi kvar i det enkla och goda, hemmafruns tacksamma efterrätt.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Rocky Road</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/rocky-road-small-device.jpg" alt="Hembakad rocky road">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Kladdkaka med godis! Nötig och knaprig, varje tugga kan smaka något olika, en lite barnsligare kladdkaka helt enkelt!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Vaniljmums</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/vaniljmums-small-device.jpg" alt="Hembakad vaniljmums">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Eller silviakaka som den också kallas. Klassisk sockerkaka med den underbara krämen ovanpå som gjort den så berömd.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 py-3">
+          <div class="card">
+            <div class="card-block">
+              <h3 class="card-title py-2 pl-2 bg-primary text-white">Hallonsmoothie</h3>
+              <div class="row">
+                <div class="col-lg-7 order-2">
+                  <img class="w-100 img-fluid" src="img/hallonsmoothie-small-device.jpg" alt="Hallonsmoothie">
+                </div>
+                <div class="col-lg-5">
+                  <div class="card-text pb-3 pl-2">
+                    Dryck eller desert? You’ll be the judge, god är den i alla fall! Innehåller inga kemiska tillsatser.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer-section">
+    <div class="container d-flex flex-row justify-content-between py-4 text-white">
+      <p class="align-self-center text-white">&copy;2017 CT24</p>
+      <a href="index.html"><img src="img/logo-tintin-reduced.png" alt="En rund cirkel som logga för en plats som välkomnar dygnet runt, året runt, vad kan vara mer passande!" class="img-fluid"></a>
+      <p class="align-self-center"><a class="text-white" href="tel:+4631180770">031-180770</a><br><a class="text-white" href="mailto:info@tintin.coffee">info@tintin.coffee</a><br><a class="text-white" href="hitta.html">Engelbrektsgatan 22</a></p>
+    </div>
+  </footer>
+
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
